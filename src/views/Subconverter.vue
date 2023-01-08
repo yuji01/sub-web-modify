@@ -1008,7 +1008,6 @@ export default {
       window.open(downld);
     },
     gotoBasicVideo() {
-//关闭弹窗，基本教程
 /*      this.$alert("别忘了关注友善的肥羊哦！", {
         type: "warning",
         confirmButtonText: '确定',
@@ -1017,10 +1016,9 @@ export default {
       })
           .then(() => */{
             window.open(basicVideo);
-          });
+          };
     },
     gotoAdvancedVideo() {
-//关闭弹窗，进阶教程
 /*      this.$alert("别忘了关注友善的肥羊哦！", {
         type: "warning",
         confirmButtonText: '确定',
@@ -1029,7 +1027,7 @@ export default {
       })
           .then(() => */{
             window.open(advancedVideo);
-          });
+          };
     },
     makeUrl() {
       if (this.form.sourceSubUrl === "" || this.form.clientType === "") {
