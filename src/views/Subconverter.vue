@@ -1008,26 +1008,10 @@ export default {
       window.open(downld);
     },
     gotoBasicVideo() {
-/*      this.$alert("别忘了关注友善的肥羊哦！", {
-        type: "warning",
-        confirmButtonText: '确定',
-        customClass: 'msgbox',
-        showClose: false,
-      })
-          .then(() => */{
-            window.open(basicVideo);
-          };
+      window.open(basicVideo);
     },
     gotoAdvancedVideo() {
-/*      this.$alert("别忘了关注友善的肥羊哦！", {
-        type: "warning",
-        confirmButtonText: '确定',
-        customClass: 'msgbox',
-        showClose: false,
-      })
-          .then(() => */{
-            window.open(advancedVideo);
-          };
+      window.open(advancedVideo);
     },
     makeUrl() {
       if (this.form.sourceSubUrl === "" || this.form.clientType === "") {
