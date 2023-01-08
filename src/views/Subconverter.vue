@@ -921,7 +921,7 @@ export default {
   mounted() {
 //    this.tanchuang();
     this.form.clientType = "clash";
-    this.getBackendVersion();
+//    this.getBackendVersion();
     this.anhei();
     let lightMedia = window.matchMedia('(prefers-color-scheme: light)');
     let darkMedia = window.matchMedia('(prefers-color-scheme: dark)');
@@ -936,9 +936,9 @@ export default {
     } //监听系统主题，自动切换！
   },
   methods: {
-    selectChanged() {
+/*    selectChanged() {
       this.getBackendVersion();
-    },
+    },*/
     anhei() {
       const getLocalTheme = window.localStorage.getItem("localTheme");
       const lightMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)');
@@ -1306,7 +1306,7 @@ export default {
           .finally(() => {
             this.loading = false;
           })
-    },
+    }/*,
     getBackendVersion() {
       this.$axios
           .get(
@@ -1318,12 +1318,12 @@ export default {
             let a = this.form.customBackend.indexOf("api.v1.mk") !== -1 || this.form.customBackend.indexOf("sub.d1.mk") !== -1;
             let b = this.form.customBackend.indexOf("v.id9.cc") !== -1;
             let c = this.form.customBackend.indexOf("127.0.0.1") !== -1;
-            a ? this.$message.success(`${this.backendVersion}`) : b ? this.$message.success(`${this.backendVersion}`) : c ? this.$message.success(`${this.backendVersion}` + "本地局域网自建版后端") : this.$message.success(`${this.backendVersion}` + "官方原版后端不支持vless/hysteria订阅转换");
+            a ? this.$message.success(`${this.backendVersion}`) : b ? this.$message.success(`${this.backendVersion}`) : c ? this.$message.success(`${this.backendVersion}`) : this.$message.success(`${this.backendVersion}`);
           })
           .catch(() => {
             this.$message.error("请求SubConverter版本号返回数据失败，该后端不可用！");
           });
-    }
+    }*/
   }
 };
 </script>
