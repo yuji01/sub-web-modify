@@ -83,7 +83,7 @@
                             type="limr"
                             style="width: 100%;"
                             icon="el-icon-more-outline"
-                        >点击显示/隐藏
+                        >
                         </el-button>
                       </el-form-item>
                     </template>
@@ -255,41 +255,6 @@
         </el-card>
       </el-col>
     </el-row>
-   <el-dialog
-        title="请选择需要观看的视频教程"
-        :visible.sync="centerDialogVisible"
-        :show-close="false"
-        width="40vh"
-        top="30vh"
-        center>
-     <div label-width="0px" style="text-align: center">
-      <el-button
-          style="width: 200px;"
-          type="primary"
-          icon="el-icon-video-play"
-          @click="gotoBasicVideo();centerDialogVisible = false"
-      >基础视频教程
-      </el-button>
-     </div>
-     <div label-width="0px" style="text-align: center;margin: 3vh 0 2vh">
-      <el-button
-          style="width: 200px;"
-          type="danger"
-          icon="el-icon-video-play"
-          @click="gotoAdvancedVideo();centerDialogVisible = false"
-      >进阶视频教程
-      </el-button>
-     </div>
-     <div label-width="0px" style="text-align: center;margin: 3vh 0 2vh">
-      <el-button
-          style="width: 200px;"
-          type="warning"
-          icon="el-icon-download"
-          @click="toolsDown"
-      >代理工具集合
-      </el-button>
-     </div> 
-    </el-dialog>
     <el-dialog
         :visible.sync="dialogUploadConfigVisible"
         :show-close="false"
