@@ -241,15 +241,6 @@
                     :loading="loading"
                 >从URL解析</el-button>
               </el-form-item>
-              <el-form-item label-width="0px" style="text-align: center">
-                <el-button
-                    style="width: 250px;"
-                    type="success"
-                    icon="el-icon-video-play"
-                    @click="centerDialogVisible = true"
-                >保姆级视频教程
-                </el-button>
-              </el-form-item>
             </el-form>
           </el-container>
         </el-card>
@@ -937,14 +928,6 @@ export default {
         window.localStorage.setItem('localTheme', 'light-mode');
       }
     },
-/*弹窗
-    tanchuang() {
-      this.$alert(`<div style="text-align:center;font-size:15px"><strong><span style="font-size:20px">本站官方TG交流群：</span><span><a href="https://t.me/feiyangdigital" target="_blank" style="color:red;font-size:20px;text-decoration:none">点击加入</a></span></strong></br><strong><span style="font-size:20px">牧场物语官网：</span><span><a href="https://www.mcwy.org" style="color:red;font-size:20px;text-decoration:none">点击注册</a></span></strong></br><strong><span style="font-size:20px">奈飞合租网站：</span><span><a href="https://www.ihezu.club" style="color:red;font-size:20px;text-decoration:none">点击上车</a></span></strong></br><strong><span style="font-size:20px">IOS外区应用代购：</span><span><a href="https://fk.myue.club" style="color:red;font-size:20px;text-decoration:none">点击查看</a></span></strong></br><strong><span style="font-size:20px">115蓝光4K原盘内部群：</span><span><a href="https://www.wulihub.com.cn/gc/Wvn2nV/index.htm" style="color:red;font-size:20px;text-decoration:none">点击了解</a></span></strong></br><strong><span style="font-size:20px">牧场流媒体支持状态实时检测图：</span><span><a href="https://nf.mccloud.vip" style="color:red;font-size:20px;text-decoration:none">点击查看</a></span></strong></br>本站服务器赞助机场-牧场物语，是一家拥有BGP中继+IEPL企业级内网专线的高端机场，适合各个价位要求的用户，牧场物语采用最新的奈飞非自制剧解决方案，出口随机更换IP，确保尽可能的每个用户可以用上独立IP，以此来稳定解决奈飞非自制剧的封锁，并推出7*24小时奈飞非自制剧节点自动检测系统，用户再也不用自己手动一个个的乱试节点了，目前牧场的新加坡，台湾等节区域点均可做到24H稳定非自制剧观看！</br></div>`, '信息面板', {
-        confirmButtonText: '确定',
-        dangerouslyUseHTMLString: true,
-        customClass: 'msgbox'
-      });
-    },*/
     onCopy() {
       this.$message.success("已复制");
     },
@@ -959,15 +942,6 @@ export default {
     },
     gotoYouTuBe() {
       window.open(yglink);
-    },
-    toolsDown() {
-      window.open(downld);
-    },
-    gotoBasicVideo() {
-      window.open(basicVideo);
-    },
-    gotoAdvancedVideo() {
-      window.open(advancedVideo);
     },
     makeUrl() {
       if (this.form.sourceSubUrl === "" || this.form.clientType === "") {
@@ -1272,24 +1246,7 @@ export default {
           .finally(() => {
             this.loading = false;
           })
-    }/*,
-    getBackendVersion() {
-      this.$axios
-          .get(
-              this.form.customBackend.substring(0, this.form.customBackend.length - 5) + "/version"
-          )
-          .then(res => {
-            this.backendVersion = res.data.replace(/backend\n$/gm, "");
-            this.backendVersion = this.backendVersion.replace("subconverter", "SubConverter");
-            let a = this.form.customBackend.indexOf("api.v1.mk") !== -1 || this.form.customBackend.indexOf("sub.d1.mk") !== -1;
-            let b = this.form.customBackend.indexOf("v.id9.cc") !== -1;
-            let c = this.form.customBackend.indexOf("127.0.0.1") !== -1;
-            a ? this.$message.success(`${this.backendVersion}`) : b ? this.$message.success(`${this.backendVersion}`) : c ? this.$message.success(`${this.backendVersion}`) : this.$message.success(`${this.backendVersion}`);
-          })
-          .catch(() => {
-            this.$message.error("请求SubConverter版本号返回数据失败，该后端不可用！");
-          });
-    }*/
+    }
   }
 };
 </script>
