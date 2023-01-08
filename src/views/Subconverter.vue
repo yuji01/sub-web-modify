@@ -455,33 +455,23 @@ export default {
           "自动判断客户端": "auto",
         },
         shortTypes: {
+          "suo.yt": "https://suo.yt/short",
           "v1.mk": "https://v1.mk/short",
           "d1.mk": "https://d1.mk/short",
           "dlj.tf": "https://dlj.tf/short",
-          "suo.yt": "https://suo.yt/short",
           "sub.cm": "https://sub.cm/short",
         },
         customBackend: {
+          "ナルトの转换后端": "https://suc.yuji2022.tk/sub?",
           "本地局域网版后端": "http://127.0.0.1:25500/sub?",
-          "肥羊增强型后端【vless+hysteria】": "https://api.v1.mk/sub?",
-          "肥羊备用后端【vless+hysteria】": "https://sub.d1.mk/sub?",
-          "品云提供后端【实验性】": "https://v.id9.cc/sub?",
-          "つつ-多地防失联【负载均衡+国内优化】": "https://api.tsutsu.one/sub?",
-          nameless13提供: "https://www.nameless13.com/sub?",
-          subconverter作者提供: "https://sub.xeton.dev/sub?",
+          "品云后端【实验性】": "https://v.id9.cc/sub?", 
           "sub-web作者提供": "https://api.wcc.best/sub?",
-          "sub作者&lhie1提供": "https://api.dler.io/sub?",
         },
         backendOptions: [
+          {value: "https://suc.yuji2022.tk/sub?"},
           {value: "http://127.0.0.1:25500/sub?"},
-          {value: "https://api.v1.mk/sub?"},
-          {value: "https://sub.d1.mk/sub?"},
           {value: "https://v.id9.cc/sub?"},
-          {value: "https://api.tsutsu.one/sub?"},
-          {value: "https://www.nameless13.com/sub?"},
-          {value: "https://sub.xeton.dev/sub?"},
           {value: "https://api.wcc.best/sub?"},
-          {value: "https://api.dler.io/sub?"},
         ],
         remoteConfig: [
           {
@@ -1328,7 +1318,7 @@ export default {
             let a = this.form.customBackend.indexOf("api.v1.mk") !== -1 || this.form.customBackend.indexOf("sub.d1.mk") !== -1;
             let b = this.form.customBackend.indexOf("v.id9.cc") !== -1;
             let c = this.form.customBackend.indexOf("127.0.0.1") !== -1;
-            a ? this.$message.success(`${this.backendVersion}` + "肥羊负载均衡加强后端支持vless+hysteria订阅转换") : b ? this.$message.success(`${this.backendVersion}` + "品云实验性后端支持vless+hysteria订阅转换") : c ? this.$message.success(`${this.backendVersion}` + "本地局域网自建版后端") : this.$message.success(`${this.backendVersion}` + "官方原版后端不支持vless/hysteria订阅转换");
+            a ? this.$message.success(`${this.backendVersion}`) : b ? this.$message.success(`${this.backendVersion}`) : c ? this.$message.success(`${this.backendVersion}` + "本地局域网自建版后端") : this.$message.success(`${this.backendVersion}` + "官方原版后端不支持vless/hysteria订阅转换");
           })
           .catch(() => {
             this.$message.error("请求SubConverter版本号返回数据失败，该后端不可用！");
