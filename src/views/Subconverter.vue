@@ -12,7 +12,7 @@
             <svg-icon class="youguan" icon-class="youtube" style="float:right;margin-left:10px" @click="gotoYouTuBe"/>
             <svg-icon class="channel" icon-class="telegram" style="float:right;margin-left: 10px"
                       @click="gotoTgChannel"/>
-            <div style="text-align:center;font-size:15px">订 阅 转 换</div>
+            <div style="text-align:center;font-size:15px">ナ ル ト の订 阅 转 换</div>
           </div>
           <el-container>
             <el-form :model="form" label-width="80px" label-position="left" style="width: 100%">
@@ -1008,24 +1008,26 @@ export default {
       window.open(downld);
     },
     gotoBasicVideo() {
-      this.$alert("别忘了关注友善的肥羊哦！", {
+//关闭弹窗，基本教程
+/*      this.$alert("别忘了关注友善的肥羊哦！", {
         type: "warning",
         confirmButtonText: '确定',
         customClass: 'msgbox',
         showClose: false,
       })
-          .then(() => {
+          .then(() => */{
             window.open(basicVideo);
           });
     },
     gotoAdvancedVideo() {
-      this.$alert("别忘了关注友善的肥羊哦！", {
+//关闭弹窗，进阶教程
+/*      this.$alert("别忘了关注友善的肥羊哦！", {
         type: "warning",
         confirmButtonText: '确定',
         customClass: 'msgbox',
         showClose: false,
       })
-          .then(() => {
+          .then(() => */{
             window.open(advancedVideo);
           });
     },
