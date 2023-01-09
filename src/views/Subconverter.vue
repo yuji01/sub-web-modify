@@ -393,10 +393,8 @@ export default {
           "Surge 2": "surge&ver=2",
           "Surge 3": "surge&ver=3",
           "Surge 4": "surge&ver=4",
-//某些后端不支持
           Mellow: "mellow",                    
-          "混合订阅（mixed）": "mixed",                                                 
-          "自动判断客户端": "auto",
+          "混合订阅（mixed）": "mixed",
         },
         shortTypes: {
           "suo.yt": "https://suo.yt/short",
