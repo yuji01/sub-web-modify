@@ -420,7 +420,7 @@ export default {
             label: "通用",
             options: [
               {
-                label: "默认（自动）",
+                label: "默认（自动全分组去广告）",
                 value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_AdblockPlus.ini"
               },
               {
@@ -809,10 +809,10 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        //默认后端和短链
+        //默认后端、短链、配置模板
         customBackend: "https://suc.yuji2022.tk/sub?",
         shortType: "https://suo.yt/short",
-        remoteConfig: "https://raw.githubusercontent.com/Meilieage/webcdn/main/rule/Area_Media_NoAuto.ini",
+        remoteConfig: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_AdblockPlus.ini",
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
