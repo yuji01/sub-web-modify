@@ -397,11 +397,10 @@ export default {
           "混合订阅（mixed）": "mixed",
         },
         shortTypes: {
-          "suo.yt": "https://suo.yt/short",
-          "v1.mk": "https://v1.mk/short",
-          "d1.mk": "https://d1.mk/short",
+          "ナルトの短链": "https://s.yuji2022.tk/short",
+          "suo.yt": "https://suo.yt/short", 
           "dlj.tf": "https://dlj.tf/short",
-          "sub.cm": "https://sub.cm/short",
+          "品云短链": "https://sub.cm/short",
         },
         customBackend: {
           "ナルトの转换后端": "https://suc.yuji2022.tk/sub?",
@@ -811,7 +810,7 @@ export default {
         clientType: "",
         //默认后端、短链、配置模板
         customBackend: "https://suc.yuji2022.tk/sub?",
-        shortType: "https://suo.yt/short",
+        shortType: "https://s.yuji2022.tk/short",
         remoteConfig: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_AdblockPlus.ini",
         excludeRemarks: "",
         includeRemarks: "",
