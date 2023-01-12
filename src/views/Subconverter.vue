@@ -404,15 +404,21 @@ export default {
         },
         customBackend: {
           "ナルトの转换后端": "https://suc.yuji2022.eu.org/sub?",
-          "本地局域网版后端": "http://127.0.0.1:25500/sub?",
+          "本地局域网后端": "http://127.0.0.1:25500/sub?",
           "品云后端【实验性】": "https://v.id9.cc/sub?", 
           "sub-web作者提供": "https://api.wcc.best/sub?",
+          "subconverter作者提供": "https://sub.xeton.dev/sub?",
+          "增强型后端【vless+hysteria】": "https://api.v1.mk/sub?",
+          "备用后端【vless+hysteria】": "https://sub.d1.mk/sub?",
         },
         backendOptions: [
           {value: "https://suc.yuji2022.eu.org/sub?"},
           {value: "http://127.0.0.1:25500/sub?"},
           {value: "https://v.id9.cc/sub?"},
           {value: "https://api.wcc.best/sub?"},
+          {value: "https://sub.xeton.dev/sub?"},
+          {value: "https://api.v1.mk/sub?"},
+          {value: "https://sub.d1.mk/sub?"},
         ],
         remoteConfig: [
           {
