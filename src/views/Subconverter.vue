@@ -425,6 +425,10 @@ export default {
             label: "通用",
             options: [
               {
+                label: "不良林防dns泄露",
+                value: "https://cf.buliang0.cf/clash-rules/nodnsleak.ini"
+              },
+              {
                 label: "默认（自动分组去广告）",
                 value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
               },
@@ -817,7 +821,7 @@ export default {
         //默认后端、短链、配置模板
         customBackend: "https://suc.narutos.eu.org/sub?",
         shortType: "https://s.yuji2022.eu.org/short",
-        remoteConfig: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini",
+        remoteConfig: "https://cf.buliang0.cf/clash-rules/nodnsleak.ini",
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
