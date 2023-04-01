@@ -825,7 +825,7 @@ export default {
         //默认后端、短链、配置模板
         customBackend: "https://suc.narutos.eu.org/sub?",
         shortType: "https://s.yuji2022.eu.org/short",
-        remoteConfig: "https://cf.buliang0.cf/clash-rules/nodnsleak.ini",
+        remoteConfig: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/clash.ini",
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
