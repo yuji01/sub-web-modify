@@ -425,6 +425,10 @@ export default {
             label: "通用",
             options: [
               {
+                label: "ナルト自用规则",
+                value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/clash.ini"
+              },
+              {
                 label: "不良林防dns泄露",
                 value: "https://cf.buliang0.cf/clash-rules/nodnsleak.ini"
               },
