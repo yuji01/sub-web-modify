@@ -425,20 +425,12 @@ export default {
             label: "通用",
             options: [
               {
-                label: "ナルトの精简去广告",
-                value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/clash_simple.ini"
-              },
-              {
                 label: "ナルトの自用规则",
                 value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/clash.ini"
               },
               {
-                label: "不良林防dns泄露",
-                value: "https://cf.buliang0.cf/clash-rules/nodnsleak.ini"
-              },
-              {
-                label: "默认（自动分组去广告）",
-                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
+                label: "ナルトの精简去广告",
+                value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/clash_simple.ini"
               },
               {
                 label: "默认（手动）",
@@ -469,6 +461,10 @@ export default {
           {
             label: "ACL规则",
             options: [
+              {
+                label: "ACL_默认版",
+                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
+              },
               {
                 label: "ACL_无测速版",
                 value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_NoAuto.ini"
@@ -538,6 +534,10 @@ export default {
           {
             label: "全网搜集规则",
             options: [
+              {
+                label: "不良林防DNS泄露",
+                value: "https://cf.buliang0.cf/clash-rules/nodnsleak.ini"
+              },
               {
                 label: "常规规则",
                 value: "https://raw.githubusercontent.com/flyhigherpi/merlinclash_clash_related/master/Rule_config/ZHANG.ini"
