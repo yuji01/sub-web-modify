@@ -397,7 +397,7 @@ export default {
           "混合订阅（mixed）": "mixed",
         },
         shortTypes: {
-          "ナルトの短链": "https://s.yuji2022.eu.org/short",
+          "ナルトの短链": "https://s.narutos.top/short",
           "suo.yt": "https://suo.yt/short", 
           "dlj.tf": "https://dlj.tf/short",
           "品云短链": "https://sub.cm/short",
@@ -824,7 +824,7 @@ export default {
         clientType: "",
         //默认后端、短链、配置模板
         customBackend: "https://suc.narutos.top/sub?",
-        shortType: "https://s.yuji2022.eu.org/short",
+        shortType: "https://s.narutos.top/short",
         remoteConfig: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/clash.ini",
         excludeRemarks: "",
         includeRemarks: "",
