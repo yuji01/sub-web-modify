@@ -403,7 +403,7 @@ export default {
           "品云短链": "https://sub.cm/short",
         },
         customBackend: {
-          "ナルトの转换后端": "https://suc.narutos.eu.org/sub?",
+          "ナルトの转换后端": "https://suc.narutos.top/sub?",
           "本地局域网后端": "http://127.0.0.1:25500/sub?",
           "品云后端【实验性】": "https://v.id9.cc/sub?", 
           "sub-web作者提供": "https://api.wcc.best/sub?",
@@ -412,7 +412,7 @@ export default {
           "备用后端【vless+hysteria】": "https://sub.d1.mk/sub?",
         },
         backendOptions: [
-          {value: "https://suc.narutos.eu.org/sub?"},
+          {value: "https://suc.narutos.top/sub?"},
           {value: "http://127.0.0.1:25500/sub?"},
           {value: "https://v.id9.cc/sub?"},
           {value: "https://api.wcc.best/sub?"},
@@ -823,7 +823,7 @@ export default {
         sourceSubUrl: "",
         clientType: "",
         //默认后端、短链、配置模板
-        customBackend: "https://suc.narutos.eu.org/sub?",
+        customBackend: "https://suc.narutos.top/sub?",
         shortType: "https://s.yuji2022.eu.org/short",
         remoteConfig: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/clash.ini",
         excludeRemarks: "",
