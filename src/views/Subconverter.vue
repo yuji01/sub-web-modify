@@ -418,6 +418,8 @@ export default {
           "碧海转换1": "https://suc.bihai.cf/sub?",
           "碧海转换2": "https://suc.bhqt.tk/sub?",
           "边缘订阅转换": "https://pub-api-1.bianyuan.xyz/sub?",
+          "奶昔订阅转换": "https://api.nexconvert.com/sub?",
+          "orangeapi.org": "https://api.orangeapi.org/sub?",
         },
         backendOptions: [
           {value: "https://suc.narutos.top/sub?"},
@@ -435,6 +437,8 @@ export default {
           {value: "https://suc.bihai.cf/sub?"},
           {value: "https://suc.bhqt.tk/sub?"},
           {value: "https://pub-api-1.bianyuan.xyz/sub?"},
+          {value: "https://api.nexconvert.com/sub?"},
+          {value: "https://api.orangeapi.org/sub?"},
         ],
         remoteConfig: [
           {
