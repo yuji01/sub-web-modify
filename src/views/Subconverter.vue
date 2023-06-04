@@ -417,6 +417,7 @@ export default {
           "熊猫提供": "https://sub.maoxiongnet.com/sub?",
           "碧海转换1": "https://suc.bihai.cf/sub?",
           "碧海转换2": "https://suc.bhqt.tk/sub?",
+          "边缘订阅转换": "https://pub-api-1.bianyuan.xyz/sub?",
         },
         backendOptions: [
           {value: "https://suc.narutos.top/sub?"},
@@ -433,6 +434,7 @@ export default {
           {value: "https://sub.maoxiongnet.com/sub?"},
           {value: "https://suc.bihai.cf/sub?"},
           {value: "https://suc.bhqt.tk/sub?"},
+          {value: "https://pub-api-1.bianyuan.xyz/sub?"},
         ],
         remoteConfig: [
           {
