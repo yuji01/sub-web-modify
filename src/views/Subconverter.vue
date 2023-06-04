@@ -410,6 +410,11 @@ export default {
           "subconverter作者提供": "https://sub.xeton.dev/sub?",
           "增强型后端【vless+hysteria】": "https://api.v1.mk/sub?",
           "备用后端【vless+hysteria】": "https://sub.d1.mk/sub?",
+          "发薪日提供": "https://sub.payday2.cf/sub?",
+          "つつ提供": "http://api.tsutsu.cc/sub?",
+          "nameless13提供": "https://www.nameless13.com/sub?",
+          "lhie1提供": "https://api.dler.io/sub?",
+          "熊猫提供": "https://sub.maoxiongnet.com/sub?",
         },
         backendOptions: [
           {value: "https://suc.narutos.top/sub?"},
@@ -419,6 +424,11 @@ export default {
           {value: "https://sub.xeton.dev/sub?"},
           {value: "https://api.v1.mk/sub?"},
           {value: "https://sub.d1.mk/sub?"},
+          {value: "https://sub.payday2.cf/sub?"},
+          {value: "http://api.tsutsu.cc/sub?"},
+          {value: "https://www.nameless13.com/sub?"},
+          {value: "https://api.dler.io/sub?"},
+          {value: "https://sub.maoxiongnet.com/sub?"},
         ],
         remoteConfig: [
           {
