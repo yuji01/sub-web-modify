@@ -415,6 +415,8 @@ export default {
           "nameless13提供": "https://www.nameless13.com/sub?",
           "lhie1提供": "https://api.dler.io/sub?",
           "熊猫提供": "https://sub.maoxiongnet.com/sub?",
+          "碧海转换1": "https://suc.bihai.cf/sub?",
+          "碧海转换2": "https://suc.bhqt.tk/sub?",
         },
         backendOptions: [
           {value: "https://suc.narutos.top/sub?"},
@@ -429,6 +431,8 @@ export default {
           {value: "https://www.nameless13.com/sub?"},
           {value: "https://api.dler.io/sub?"},
           {value: "https://sub.maoxiongnet.com/sub?"},
+          {value: "https://suc.bihai.cf/sub?"},
+          {value: "https://suc.bhqt.tk/sub?"},
         ],
         remoteConfig: [
           {
