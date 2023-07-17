@@ -447,6 +447,10 @@ export default {
                 value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/clash.ini"
               },
               {
+                label: "ナルトの公司规则",
+                value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/work.ini"
+              },
+              {
                 label: "ナルトの测试规则",
                 value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/clash_test.ini"
               },
