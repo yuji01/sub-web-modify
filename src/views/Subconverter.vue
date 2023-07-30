@@ -443,8 +443,12 @@ export default {
             label: "通用",
             options: [
               {
-                label: "ナルトの自用规则",
+                label: "ナルトの高级规则",
                 value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/clash.ini"
+              },
+              {
+                label: "ナルトの简单规则",
+                value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/clash_simple.ini"
               },
               {
                 label: "ナルトの公司规则",
