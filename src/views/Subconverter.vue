@@ -1437,6 +1437,6 @@ function stopp() {
   } else {
     startSakura();
   }
-};
+}
 
 </script>
