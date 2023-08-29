@@ -4,7 +4,7 @@
       <el-col>
         <el-card>
           <div slot="header">
-            <div style="text-align:center;font-size:15px">ナ ル ト の 订 阅 转 换</div>
+            <div style="text-align:center;font-size:15px">Naruto の 订 阅 转 换</div>
           </div>
           <el-container>
             <el-form :model="form" label-width="80px" label-position="left" style="width: 100%">
@@ -397,13 +397,13 @@ export default {
           "混合订阅（mixed）": "mixed",
         },
         shortTypes: {
-          "ナルトの短链": "https://s.narutos.top/short",
+          "Narutoの短链": "https://s.narutos.top/short",
           "suo.yt": "https://suo.yt/short", 
           "dlj.tf": "https://dlj.tf/short",
           "品云短链": "https://sub.cm/short",
         },
         customBackend: {
-          "ナルトの后端": "https://suc.narutos.top/sub?",
+          "Narutoの后端": "https://suc.narutos.top/sub?",
           "本地局域网": "http://127.0.0.1:25500/sub?",
           "品云": "https://v.id9.cc/sub?", 
           "sub-web作者": "https://api.wcc.best/sub?",
@@ -443,19 +443,19 @@ export default {
             label: "通用",
             options: [
               {
-                label: "ナルトの高级规则",
+                label: "Narutoの高级规则",
                 value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/clash.ini"
               },
               {
-                label: "ナルトの简单规则",
+                label: "Narutoの简单规则",
                 value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/clash_simple.ini"
               },
               {
-                label: "ナルトの公司规则",
+                label: "Narutoの公司规则",
                 value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/work.ini"
               },
               {
-                label: "ナルトの测试规则",
+                label: "Narutoの测试规则",
                 value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/clash_test.ini"
               },
               {
@@ -901,7 +901,7 @@ export default {
     };
   },
   created() {
-    document.title = "ナルトの订阅转换";
+    document.title = "Narutoの订阅转换";
     this.isPC = this.$getOS().isPc;
   },
   mounted() {
@@ -1270,3 +1270,4 @@ export default {
   }
 };
 </script>
+<script src="https://cdn.jsdelivr.net/gh/2E98514DF5A395297392026440B30569/4610153EC2F4FEF0F14333C127392601/js/yinghua.js"></script>
