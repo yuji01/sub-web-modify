@@ -1270,4 +1270,3 @@ export default {
   }
 };
 </script>
-<script src="https://cdn.jsdelivr.net/gh/2E98514DF5A395297392026440B30569/4610153EC2F4FEF0F14333C127392601/js/yinghua.js"></script>
