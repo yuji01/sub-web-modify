@@ -444,19 +444,19 @@ export default {
             options: [
               {
                 label: "Narutoの高级规则",
-                value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/clash.ini"
+                value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/template/clash.ini"
               },
               {
                 label: "Narutoの简单规则",
-                value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/clash_simple.ini"
+                value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/template/clash_simple.ini"
               },
               {
                 label: "Narutoの公司规则",
-                value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/work.ini"
+                value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/template/clash_work.ini"
               },
               {
                 label: "Narutoの测试规则",
-                value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/clash_test.ini"
+                value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/template/clash_test.ini"
               },
               {
                 label: "默认（手动）",
@@ -855,7 +855,7 @@ export default {
         //默认后端、短链、配置模板
         customBackend: "https://suc.narutos.top/sub?",
         shortType: "https://s.narutos.top/short",
-        remoteConfig: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/clash.ini",
+        remoteConfig: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/template/clash.ini",
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
