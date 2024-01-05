@@ -445,23 +445,23 @@ export default {
             label: "通用",
             options: [
               {
-                label: "Narutoの高级规则",
+                label: "高级规则",
                 value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/template/clash.ini"
               },
               {
-                label: "Narutoの简单规则",
+                label: "简单规则",
                 value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/template/clash_simple.ini"
               },
               {
-                label: "NarutoのGoogle One",
+                label: "Google One",
                 value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/template/clash_google_one.ini"
               },
               {
-                label: "Narutoの公司规则",
+                label: "公司规则",
                 value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/template/clash_work.ini"
               },
               {
-                label: "Narutoの测试规则",
+                label: "测试规则",
                 value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/template/clash_test.ini"
               },
               {
