@@ -404,7 +404,8 @@ export default {
         },
         customBackend: {
           "Narutoの后端": "https://suc.narutos.top/sub?",
-          "Narutoの备用后端": "https://suc2.narutos.top/sub?",
+          "Narutoの后端2": "https://suc2.narutos.top/sub?",
+          "Narutoの后端3": "https://suc3.narutos.top/sub?",
           "本地局域网": "http://127.0.0.1:25500/sub?",
           "品云": "https://v.id9.cc/sub?", 
           "sub-web作者": "https://api.wcc.best/sub?",
@@ -424,6 +425,7 @@ export default {
         backendOptions: [
           {value: "https://suc.narutos.top/sub?"},
           {value: "https://suc2.narutos.top/sub?"},
+          {value: "https://suc3.narutos.top/sub?"},
           {value: "http://127.0.0.1:25500/sub?"},
           {value: "https://v.id9.cc/sub?"},
           {value: "https://api.wcc.best/sub?"},
