@@ -451,6 +451,10 @@ export default {
                 value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/template/clash.ini"
               },
               {
+                label: "常用规则",
+                value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/template/clash2.ini"
+              },
+              {
                 label: "简单规则",
                 value: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/template/clash_simple.ini"
               },
@@ -867,7 +871,7 @@ export default {
         //默认后端、短链、配置模板
         customBackend: "https://suc.narutos.top/sub?",
         shortType: "https://s.narutos.top/short",
-        remoteConfig: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/template/clash.ini",
+        remoteConfig: "https://raw.githubusercontent.com/2E98514DF5A395297392026440B30569/4B53B576B66CFC06CEF316286D58565B/main/template/clash2.ini",
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
